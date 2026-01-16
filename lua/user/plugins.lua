@@ -25,4 +25,6 @@ Plug('m4xshen/hardtime.nvim')
 Plug('williamboman/mason.nvim')
 Plug('mhartington/formatter.nvim')
 
+Plug('glacambre/firenvim', { ['do'] = function() vim.fn['firenvim#install'](0) end })
+
 vim.call('plug#end')
