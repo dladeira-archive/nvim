@@ -5,7 +5,6 @@ require('user/keymaps')
 require("user/options")
 
 require('toggleterm').setup()
-require('hardtime').setup()
 
 require("mason").setup()
 

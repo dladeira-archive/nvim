@@ -20,11 +20,7 @@ Plug('nvim-lua/plenary.nvim') -- Dependency for telescope and null-ls, util func
 Plug('nvim-tree/nvim-web-devicons') -- File icons for telescope and neo-tree
 Plug('MunifTanjim/nui.nvim') -- Dependency for neo-tree
 
-Plug('m4xshen/hardtime.nvim')
-
 Plug('williamboman/mason.nvim')
 Plug('mhartington/formatter.nvim')
-
-Plug('glacambre/firenvim', { ['do'] = function() vim.fn['firenvim#install'](0) end })
 
 vim.call('plug#end')
